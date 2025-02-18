@@ -1,0 +1,71 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Survey</title>
+  <link rel="stylesheet" href="style.css">
+  <header> 
+   <h1 id="title">Jeffrey's Coding Survey</h1>
+   <p id="description">This is a coding survey to make sure you know how to code.</p>
+  </header>
+</head>
+<body>
+   
+  <form id="survey-form">
+
+    <fieldset>
+      <legend>Personal Information:</legend>
+      <label for="name" id="name-label" >Enter your name:</label>
+      <input id="name" type="text" placeholder="Ex. Robert Canva" required />
+      <label for="email" id="email-label" >Enter your email:</label>
+      <input id="email" type="email" placeholder="example@email.com" required />
+      <label for="number" id="number-label" >Enter your age: </label>
+      <input id="number" type="number" min="18" max="119" placeholder="age" required />
+    </fieldset>
+
+    <fieldset>
+     <legend>Experience Level:</legend>
+     <select id="dropdown">
+      <option>Select:</option>
+      <option value="apprentice">Apprentice</option>
+      <option value="junior">Junior</option>
+      <option value="senior">Senior</option>
+      <option value="staff">Staff</option>
+      <option value="distinguished">Distinguished</option>
+      <option value="principal">Principal</option>
+     </select>
+    </fieldset>
+        
+    <fieldset>
+      <legend>Job Function:</legend>
+      <input type="radio" value="Front" name="choose">
+      <placeholder>Front-end</placeholder>
+      <input type="radio" value="Back" name="choose">
+      <placeholder>Back-end</placeholder>
+    </fieldset>
+
+    <fieldset>
+        <placeholder>I</placeholder>
+        <placeholder>want<input type="checkbox" value="want"></placeholder>
+        <placeholder>certificantion<input type="checkbox" value="certificant"></placeholder>
+    </fieldset>
+
+        <label for="comments">Any Comments?</label>
+        <textarea name="comments" id="comments"></textarea>
+        <button id="submit" type="submit" >Submit</button>
+
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
